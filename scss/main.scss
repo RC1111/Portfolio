@@ -73,6 +73,19 @@ main {
     }
   }
 }
+
+//skills-icon menu
+.skills {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.icon-1 {
+  padding: 10% 10% 10% 10%;
+}
+.github {
+  border: solid 2px black;
+  border-radius: 100px;
+}
 //About Me Info
 .about-info {
   display: grid;
@@ -125,7 +138,7 @@ main {
     @include easeOut;
 
     &:hover {
-      padding: 0.5rem 1.5rem;
+      padding: 0.5 rem 1.5rem;
       background: $secondary-color;
       color: set-text-color($secondary-color);
       span {
